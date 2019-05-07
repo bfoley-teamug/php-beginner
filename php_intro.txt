@@ -1,0 +1,22 @@
+<?php
+  function greet($name, $love) {
+    echo "<p>Hi I'm $name and I love $love</p>";
+  }
+
+  greet('John', 'Yoko');
+  greet('Paul', 'Linda');
+
+  $myNames = array("George Harrison", "Ringo Starr");
+
+  $count = 1;
+  while($count < 145) {
+    echo "<li>$count</li>";
+    $count++;
+  }
+
+ ?>
+
+ <h1><?php bloginfo('name'); ?></h1>
+ <p><?php bloginfo('description'); ?></p>
+
+ <p>Hi, I'm listening to the solo work of <?php echo $myNames[0] ?></p>

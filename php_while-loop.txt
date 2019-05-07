@@ -1,0 +1,13 @@
+<?php
+
+  $myNames = array("George Harrison", "Ringo Starr", "David Bowie", "Bob Dylan");
+
+  $count = 0;
+
+  while($count < count($myNames)) {
+    echo "<li>Hi, my name is $myNames[$count]</li>";
+    $count++;
+
+  }
+
+ ?>
