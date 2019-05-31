@@ -1,0 +1,17 @@
+<?php
+  $firstName = "John";
+  $num = 9;
+
+  $lastName = "Lennon";
+  $song = 'Instant Karma';
+  $fullName = $firstName . ' ' . $lastName;
+  $credit = "$song by $fullName";
+
+  echo $credit;
+
+  $newLines = "\r\n\r\n";
+  $message = "Name: $fullName $newLines";
+  $message .= "Song: $song $newLines";
+  $message .= "at $num";
+
+  echo $message;
