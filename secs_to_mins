@@ -1,0 +1,16 @@
+
+<?php
+
+function secs_to_min($secs) {
+  $sec = $secs % 60;
+  $min = intdiv($secs, 60);
+
+
+  $sec = abs($sec);
+  $sec = ($sec < 10) ? '0' . $sec : $sec;
+  return "$min:$sec";
+
+}
+echo secs_to_min(420);
+
+ ?>
